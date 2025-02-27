@@ -1,8 +1,63 @@
-# React + Vite
+# React Calculator (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple calculator built using React.js and Vite. It supports basic arithmetic operations like addition, subtraction, multiplication, and division.
 
-Currently, two official plugins are available:
+# Features
+- Perform basic calculations: `+`, `-`, `*`, `/`
+- Responsive and clean UI using Tailwind CSS
+- Real-time input display and result output
+- Clear button to reset the input
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/calculator.git
+   cd calculator
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+4. Open the project in your browser:
+   ```
+   http://localhost:5173/
+   ```
+
+# Project Structure
+```
+calculator/
+│── src/
+│   ├── App.jsx      # Main React component (Calculator UI and Logic)
+│   ├── main.jsx     # Entry point for React
+│   ├── index.css    # Global styles
+│── public/
+│── package.json    # Dependencies and scripts
+│── vite.config.js  # Vite configuration
+│── README.md       # Project documentation
+```
+
+# Deployment
+To build the project for production:
+```sh
+npm run build
+```
+
+To preview the production build:
+```sh
+npm run preview
+```
+
+# License
+This project is open-source and available under the [MIT License](LICENSE). Feel free to modify and use it as needed.
+
+# Author
+[Sudip Nagane](https://github.com/sudip1415)
+
