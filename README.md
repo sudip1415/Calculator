@@ -35,7 +35,9 @@ This is a simple calculator built using React.js and Vite. It supports basic ari
 ```
 calculator/
 │── src/
-│   ├── App.jsx      # Main React component (Calculator UI and Logic)
+|   |── Comopnent/
+|      |──Calculate.jsx      #Calculate component(Calculator UI and logic)
+│   ├── App.jsx      # Main React component 
 │   ├── main.jsx     # Entry point for React
 │   ├── index.css    # Global styles
 │── public/
