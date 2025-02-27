@@ -58,7 +58,7 @@ npm run preview
 ```
 
 # License
-This project is open-source and available under the [MIT License](LICENSE). Feel free to modify and use it as needed.
+This project is open-source. Feel free to modify and use it as needed.
 
 # Author
 [Sudip Nagane](https://github.com/sudip1415)
